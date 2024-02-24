@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kkk pro dylan s2</title>
+    <style> 
+ 
+    body{
+        background-color:rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url(/os-homens-mais-feios-do-mundo-7.png);
+    }
+    
+    .painel{
+        margin: auto;
+        background-color: rgb(255, 214, 214);
+        width: 1000px;
+        
+border-radius: 100px;
+text-align: center;
+padding-top: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #sim{
+height: 40px;
+    width: 60px;
+ background-color: rgb(255, 0, 0);
+    border: 2px solid white;
+border-radius: 10px;
+color: white;
+margin-left: -50px;
+    }
+    #nao{
+        position: absolute;
+        height: 40px;
+width: 60px;
+     background-color: rgb(0, 0, 0);
+       border: 2px solid white; 
+    border-radius: 10px;
+color: white;
+margin-left: 10px;
+    }
+
+    </style>
+
+    
+
+</head>
+
+<body>
+    <div class="painel"> 
+        
+<h1>você e uma pessoa muito foda, cuidado com a resposta</h1>
+
+<img src="https://i.pinimg.com/736x/5f/21/71/5f2171780268de0e27c64688ddb6ce3e.jpg" alt="">
+
+<h3>lembrando que cê e foda e que foi bom p porra conhece vc
+    voce foi tipo meu presente do ano
+você gostou de me conhecer?</h3>
+
+
+<a href="https://www.youtube.com/watch?v=Rc4BySYDKH8"><button id="sim"> sim! </button></a>
+
+<button onmouseover="fuja()" id="nao"> nao! </button>
+<h4>a.. e obgd por apoiar e elogiar quase tudo oq faço pq isso real me deixa feliz, você e unico pra fazer meu dia ficar chave
+    
+    (juro que to tentando ser fofin)
+</h4>
+<img src="https://i.gifer.com/WiYV.gif" alt="">
+
+
+
+ </div>
+
+    <script>
+function fuja() {
+    var botaonao = document.getElementById("nao")
+
+    var largurajanela = window.innerWidth;
+    var alturjanela = window.innerHeight;
+
+    var maxX = largurajanela - botaonao.offsetWidth;
+    var maxY = alturjanela - botaonao.offsetHeight;
+
+    var aleatorioX = Math.floor(Math.random() * maxX);
+    var aleatorioY = Math.floor(Math.random() * maxY)
+
+    botaonao.style.left = aleatorioX + "px";
+    botaonao.style.top = aleatorioY + "px";
+
+}
+    </script>
+</body>
+</html>
